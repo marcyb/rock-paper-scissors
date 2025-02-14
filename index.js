@@ -5,4 +5,11 @@ function getComputerChoice() {
   return 'scissors';
 }
 
-console.log(getComputerChoice());
+// console.log(getComputerChoice());
+
+function getHumanChoice() {
+  const choice = prompt('Please choose (r)ock, (p)aper, or (s)cissors');
+  return choice;
+}
+
+console.log(getHumanChoice());
